@@ -18,9 +18,7 @@ block content
                   i.fa.fa-print
                   | Imprimir / Salvar PDF
             .content
-              a(href=config.priceTable, target="_blank").btn.btn-warning Tabela de valores  
-              form(action=action, method='POST', enctype="multipart/form-data")
-                .row
+             
                   .col-sm-4
                     if !signup
                       include ../../partials/flash
