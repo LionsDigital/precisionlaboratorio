@@ -19,6 +19,8 @@ block content
                   | Imprimir / Salvar PDF
             .content
              
+              form(action=action, method='POST', enctype="multipart/form-data")
+                .row
                   .col-sm-4
                     if !signup
                       include ../../partials/flash
